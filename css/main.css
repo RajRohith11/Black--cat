@@ -190,7 +190,296 @@ body{
 .spl{
     padding-top: 50px;
 }
+.left{
+    display: block;
+}
+#menu-bar-btn{
+    display: none;
+}
+.vfx{
+    padding-top: 40px;
+}
+@media screen and (max-width:800Px) {
+    
+    .left{
+        display: none;
+        width: 100%;
+        
+        
+    }
+    #menu-bar-btn{
+        display: block;
+    }
+    .rigth{
+        width: 100%;
+    }
+    .button-b-f{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        padding-left: 0;
+    }
+    .rigth{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .f-btn{
+        width: 100%;
+    }
+    .slider-btn{
+        display: none;
+    }
+    #html{
+        padding-left: 0;
+    }
+    .html01{
+        display: flex;
+        justify-content: center;
+    }
+    .html1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .exam{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    #thani{
+        text-align: center;
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .examples{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+        width: 80%;
+    }
+    #para{
+        font-size: 15px;
+    }
+    .f-btn{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .button-b-f{
+        padding-bottom: 10px;
+    }
+   .aside{
+    position: fixed;
+    z-index: 2;
+    background-color: whitesmoke;
+    bottom: 50px;
+   }
+   .aside h3{
+    font-size: 20px;
+    color: black;
 
+   }
+   .aside a{
+   padding: 5px;
+   }
+    
+    
+
+
+}
+.final-div-for-crdits-main{
+    background-color: #0A1D36;
+    color: #FABC3F;
+    display: flex;
+    
+    padding-top: 50px;
+    padding-right: 20%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.crds1{
+    display: flex;
+    gap: 100px;
+    padding-bottom: 20px;
+}
+.crds1 a{
+    color: #FABC3F;
+    font-size: 20px;
+    
+}
+
+.crds3{
+    font-size: 20px;
+    display: grid;
+    padding-top: 40px;
+    gap: 5px;
+}
+.crds3 a{
+    color: white;
+    
+    font-size: 15px;
+}
+.crds3 #tt{
+    font-size: 25px;
+    padding-bottom: 10px;
+   color: wheat;
+}
+.def{
+    display: flex;
+    gap: 120px;
+    padding-left: 160px;
+    justify-content: center;
+
+}
+.mainfinal{
+    display: flex;
+    justify-content: center;
+    background-color: #0A1D36;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.finall{
+    width: 60%;
+}
+.mainfinal h3{
+    padding-bottom: 5px;
+    color: #FABC3F;
+}
+.cat{
+    background-color: #0A1D36;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+    font-family: Stencil Std, fantasy;
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+
+    .main {
+        background-color: #10375C;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom-right-radius: 100px;
+    }
+
+    .serch {
+        width: 250px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+
+    }
+
+    .h1 {
+        font-size: large;
+        font-weight: bold;
+    }
+    .div-flexcard{
+        width: 80%;
+        height: 40vh;
+        
+    }
+    .div-flexcard-two{
+        width: 80%;
+        height: 20vh;
+        
+    }
+    .div-flexcard-one{
+        width: 80%;
+        height: 20vh;
+        
+    }
+    .div-third-main .div-box1{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+  
+   .div-ex{
+    width: 90%;
+    height: 15vh;
+   }
+   .div-exex1{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   }
+   .div-spaceone a{
+    font-size: 25px;
+   }
+   .div-exex a{
+    font-size: 20px;
+   }
+   .crds1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding-left: 50px;
+    text-align: center;
+}
+.crds1{
+    font-size: 50px;
+}
+.def{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+}
+    .cat img{
+        height: auto;
+        width: 90%;
+    }
+    .cat{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .finall p{
+        text-align: center;
+    }
+  
+   
+    
+}
+#tt{
+    font-size: 25px;
+    white-space: nowrap;
+}
 
 
 

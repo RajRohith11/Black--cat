@@ -23,12 +23,14 @@ document.addEventListener("DOMContentLoaded",function(){
 
 document.addEventListener("DOMContentLoaded",function(){
     const bar = document.getElementById("menu-bar-btn")
-    const list = document.querySelectorAll(".aside")
+    const list = document.querySelectorAll(".left")
     bar.addEventListener("click",function(){
         list.forEach(
             item =>{
-                if(item.sttyle){
-
+                if(item.style.display === "none"){
+                    item.style.display = "block"
+                }else{
+                    item.style.display = "none"
                 }
             }
         )
