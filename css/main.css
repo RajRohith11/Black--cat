@@ -200,100 +200,76 @@ body{
     padding-top: 40px;
 }
 @media screen and (max-width:800Px) {
-    
-    .left{
-        display: none;
-        width: 100%;
-        
-        
-    }
-    #menu-bar-btn{
-        display: block;
-    }
-    .rigth{
-        width: 100%;
-    }
-    .button-b-f{
-        display: flex;
-        justify-content: space-between;
-        width: 90%;
-        padding-left: 0;
-    }
-    .rigth{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 0;
-    }
-    .f-btn{
-        width: 100%;
-    }
-    .slider-btn{
-        display: none;
-    }
-    #html{
-        padding-left: 0;
-    }
-    .html01{
-        display: flex;
-        justify-content: center;
-    }
-    .html1{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .exam{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-    }
-    #thani{
-        text-align: center;
-        font-size: 15px;
-        padding-top: 20px;
-        padding-bottom: 15px;
-    }
-    .examples{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 0;
-        width: 80%;
-    }
-    #para{
-        font-size: 15px;
-    }
-    .f-btn{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .button-b-f{
-        padding-bottom: 10px;
-    }
-   .aside{
-    position: fixed;
-    z-index: 2;
+ .slider-btn{
+    display: none;
+ }
+ #html{
+    padding-left: 0;
+ }
+  #menu-bar-btn{
+    display: block;
+  }   
+  .main-class{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left{
+    display: none;
+    width: 60%;
+    position: absolute;
+    z-index: 1;
     background-color: whitesmoke;
-    bottom: 50px;
-   }
-   .aside h3{
+  }
+  .left h3{
     font-size: 20px;
     color: black;
-
-   }
-   .aside a{
-   padding: 5px;
-   }
-    
-    
-
-
+  }
+  .rigth{
+    width: 100%;
+    padding-left: 0;
+  }
+  .blue-box{
+    width: 100%;
+  }
+  .html01{
+    padding-left: 0;    
+  }
+  #cen{
+   text-align: center;
+ }
+ .button-b-f{
+    width: 100%;
+    padding-left: 0;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+ #try{
+    font-size: 21px;
+ }
+ .exam{
+    padding-left: 10px;
+ }
+ .gray-box{
+    width: 100%;
+ }
+ #thani{
+    font-size: 15px;
+    padding-left: 10px;
+ }
+ .examples{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ #para{
+    font-size: 15px;
+ }
+ #ex{
+    font-size: 20px;
+ }
 }
 .final-div-for-crdits-main{
     background-color: #0A1D36;
