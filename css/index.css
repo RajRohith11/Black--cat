@@ -1,0 +1,521 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #EED3B1;
+}
+
+
+
+.one {
+    background-color: #10375C;
+    padding-top: 5px;
+    text-wrap: nowrap;
+    overflow: scroll;
+}
+
+.a {
+    color: white;
+    margin-left: 13px;
+    text-decoration: none;
+}
+
+.one::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.main {
+    background-color: #10375C;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 200px;
+}
+
+.sub {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.serch {
+    width: 450px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.main input {
+    border: none;
+    outline: none;
+}
+
+.div-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+
+
+}
+
+.div-two-html {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+
+}
+
+.div-two-a {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#a1 {
+    background-color: #FCFFC1;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+
+}
+
+#a2 {
+    background-color: #F0BB78;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+#a3 {
+    background-color: #543A14;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+#a4 {
+    background-color: #1A1A19;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.three {
+    background-color: #E5E1DA;
+}
+
+#b1 {
+    background-color: #A59D84;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+}
+
+#b2 {
+    background-color: #EED3B1;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+}
+
+#b3 {
+    background-color: #CA7373;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+#b4 {
+    background-color: #640D5F;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.div-four {
+    background-color: #89A8B2;
+}
+
+#c1 {
+    background-color: #F3F3E0;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+}
+
+#c2 {
+    background-color: #3B1E54;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+#c3 {
+    background-color: #3ABEF9;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+#c4 {
+    background-color: #507587;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.div-five {
+    background-color: white;
+}
+
+#d1 {
+    background-color: #8D0B41;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+#d2 {
+    background-color: #D39D55;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+#d3 {
+    background-color: #659287;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+#d4 {
+    background-color: #FF6500;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+
+}
+.flex-space{
+    background-color: #1A1A19;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    
+
+
+}
+.div-flexcard{
+    width: 40%;
+    height: 40vh;
+    border-radius: 10px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fc1{
+    background-color: #ECDFCC;
+}
+#fca1{
+    background-color: #1A1A19;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    border-radius: 5px;
+}
+.div-spaceone{
+
+}
+#fc2{
+    background-color: #89A8B2;
+}
+#fc3{
+    background-color: #FFF5D7;
+}
+#fc4{
+    background-color: #756AB6;
+}
+#fc5{
+    background-color: #AE445A;
+}
+#fc6{
+    background-color: #522258;
+}
+.div-flexcardfour{
+    height: 20vh;
+    width: 24%;
+    background-color: white;
+    margin-top: 20px;
+
+}
+.div-flexcardfour a{
+    color:#1A1A19 ;
+}
+
+.div-flexcard-two{
+    width: 20%;
+    height: 20vh;
+    background-color: white;
+
+}
+.div-flexcard-two a{
+    color: #1A1A19;
+}
+.div-flexcard-one{
+    width: 40%;
+    height: 20vh;
+    background-color: white;
+}
+.div-flexcard-one a{
+    color: #1A1A19;
+}
+.div-spaceone{
+    background-color: #1a1919;
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+
+}
+.div-exex{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.div-exex1{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.div-ex{
+    width: 40%;
+    height: 20vh;
+    background-color: #1A1A19;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.div-ex a{
+    color: white;
+}
+.final-div-for-crdits-main{
+    background-color: #0A1D36;
+    color: #FABC3F;
+    display: flex;
+    
+    padding-top: 50px;
+    padding-right: 20%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.crds1{
+    display: flex;
+    gap: 100px;
+    padding-bottom: 20px;
+}
+.crds1 a{
+    color: #FABC3F;
+    font-size: 20px;
+    
+}
+
+.crds3{
+    font-size: 20px;
+    display: grid;
+    padding-top: 40px;
+    gap: 5px;
+}
+.crds3 a{
+    color: white;
+    
+    font-size: 15px;
+}
+.crds3 #tt{
+    font-size: 25px;
+    padding-bottom: 10px;
+   color: wheat;
+}
+.def{
+    display: flex;
+    gap: 120px;
+    padding-left: 160px;
+    justify-content: center;
+
+}
+.mainfinal{
+    display: flex;
+    justify-content: center;
+    background-color: #0A1D36;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.finall{
+    width: 60%;
+}
+.mainfinal h3{
+    padding-bottom: 5px;
+    color: #FABC3F;
+}
+.cat{
+    background-color: #0A1D36;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+    font-family: Stencil Std, fantasy;
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+
+    .main {
+        background-color: #10375C;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom-right-radius: 100px;
+    }
+
+    .serch {
+        width: 250px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+
+    }
+
+    .h1 {
+        font-size: large;
+        font-weight: bold;
+    }
+    .div-flexcard{
+        width: 80%;
+        height: 40vh;
+        
+    }
+    .div-flexcard-two{
+        width: 80%;
+        height: 20vh;
+        
+    }
+    .div-flexcard-one{
+        width: 80%;
+        height: 20vh;
+        
+    }
+    .div-third-main .div-box1{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+  
+   .div-ex{
+    width: 90%;
+    height: 15vh;
+   }
+   .div-exex1{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   }
+   .div-spaceone a{
+    font-size: 25px;
+   }
+   .div-exex a{
+    font-size: 20px;
+   }
+   .crds1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding-left: 50px;
+    text-align: center;
+}
+.crds1{
+    font-size: 50px;
+}
+.def{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+}
+    .cat img{
+        height: auto;
+        width: 90%;
+    }
+    .cat{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .finall p{
+        text-align: center;
+    }
+  
+   
+    
+}

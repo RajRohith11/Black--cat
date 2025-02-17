@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+    background-color: whitesmoke;
+}
+.slider{
+    display: flex;
+    gap: 30px;
+    white-space: nowrap;
+    overflow: scroll;
+    background-color: black;
+    padding: 10px;
+}
+.slider a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.slider a:hover{
+    text-decoration: none;
+    color: lightgreen;
+    
+    
+}
+.slider::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+#back{
+    position: absolute;
+    top: 2px;
+    right: 0;
+    padding: 7px;
+}
+#next{
+    position: absolute;
+    top: 2px;
+    padding: 7px;
+
+}
+#html{
+    padding-left: 40px;
+}
+#last{
+    padding-right: 40px;
+}
+.color{
+    background-color: rgb(77, 72, 72);
+    border: none;
+    color: whitesmoke;
+    z-index: 1;
+}
+.color:hover{
+    cursor: pointer;
+}
+.nav{
+    position: sticky;
+    top: 0;
+}
+.main-class{
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 20%;
+    
+}
+.aside{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    height: 95dvh;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+    gap: 5px;
+    top: 40px;
+    z-index: -1;
+}
+.aside a{
+    color: black;
+    text-decoration: none;
+}
+.aside a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+}
+#green{
+    background-color: lightgreen;
+}
+.rigth{
+    width: 80%;
+    padding-left: 20px;
+}
+.button-b-f{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.b-color{
+    padding: 15px;
+    background-color: rgb(48, 167, 48);
+    border-radius: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.b-color:hover{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.blue-box{
+    background-color: rgb(150, 247, 247);
+    width: 90%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+.html01{
+    padding-top: 40px;
+}
+#lhm{
+    background-color: rgb(48, 167, 48);
+    padding: 10px;
+    color: whitesmoke;
+    width: max-content;
+}
+.exam2{
+    border-color: lightslategray;
+}
+.gray-box{
+    background-color: rgb(205, 206, 207);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+
+}
+.exam-box{
+    border-left: solid 5px green;
+    background-color: whitesmoke;
+    width: 90%;
+    padding-left: 20px;
+}
+.white-box{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.Layout{
+    color: red;
+}
+.black{
+    color: black;
+}
+.btn{
+    padding: 15px;
+    background-color: rgb(48, 167, 48);
+    border-radius: 5px;
+    color: whitesmoke;
+    text-decoration: none;  
+    width: max-content;
+}
+.c-gray-box{
+    padding-left: 10px;
+}
+.examples p{
+    font-size: 20px;
+}
+#html-ex{
+    background-color: lightsteelblue;
+    padding: 10px;
+    width: max-content;
+    color: whitesmoke;
+}
+.f-btn{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.spl{
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
