@@ -60,6 +60,7 @@ body{
 .nav{
     position: sticky;
     top: 0;
+
 }
 .main-class{
     width: 100%;
@@ -68,9 +69,11 @@ body{
 .left{
     width: 20%;
     
+
+    
 }
 .aside{
-    position: fixed;
+    position: sticky;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
@@ -79,6 +82,8 @@ body{
     padding-bottom: 20px;
     gap: 5px;
     top: 40px;
+    bottom: 90dvh;
+    z-index: 0;
 }
 .aside a{
     color: black;
@@ -198,6 +203,11 @@ body{
 .vfx{
     padding-top: 40px;
 }
+.html-intro01{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 @media screen and (max-width:800Px) {
  .slider-btn{
     display: none;
@@ -226,6 +236,7 @@ body{
     position: absolute;
     z-index: 1;
     background-color: whitesmoke;
+    
   }
   .left h3{
     font-size: 20px;
@@ -275,6 +286,14 @@ body{
  }
  #ex{
     font-size: 20px;
+ }
+
+
+ .html-intro01{
+    padding-left: 20px;
+ }
+ .html-intro01 ul{
+    list-style-position: outside;
  }
 
 
