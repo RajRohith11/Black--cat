@@ -1,13 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: auto;
     background-color: whitesmoke;
 }
-.slider{
+
+.slider {
     display: flex;
     gap: 30px;
     white-space: nowrap;
@@ -15,75 +17,88 @@ body{
     background-color: black;
     padding: 10px;
 }
-.slider a{
+
+.slider a {
     text-decoration: none;
     color: whitesmoke;
 
 }
-.slider a:hover{
+
+.slider a:hover {
     text-decoration: none;
     color: lightgreen;
-    
-    
+
+
 }
-.slider::-webkit-scrollbar{
+
+.slider::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
-#back{
+
+#back {
     position: absolute;
     top: 2px;
     right: 0;
     padding: 7px;
 }
-#next{
+
+#next {
     position: absolute;
     top: 2px;
     padding: 7px;
 
 }
-#html{
+
+#html {
     padding-left: 40px;
 }
-#last{
+
+#last {
     padding-right: 40px;
 }
-.color{
+
+.color {
     background-color: rgb(77, 72, 72);
     border: none;
     color: whitesmoke;
     z-index: 1;
 }
 
-.color:hover{
+.color:hover {
     cursor: pointer;
 }
-.html-intro01 ul li{
+
+.html-intro01 ul li {
     padding-bottom: 5px;
 }
-.html-intro01 ul{
+
+.html-intro01 ul {
     list-style-position: outside;
 }
-.nav{
+
+.nav {
     position: sticky;
     top: 0;
 
 }
-.main-class{
+
+.main-class {
     width: 100%;
     display: flex;
-    
+
 }
 
-.left{
+.left {
     width: 20%;
-    
-    
-    
 
-    
+
+
+
+
 }
-.aside{
+
+.aside {
     position: sticky;
     display: flex;
     flex-direction: column;
@@ -96,42 +111,50 @@ body{
     bottom: 90dvh;
     z-index: 0;
 }
-.aside a{
+
+.aside a {
     color: black;
     text-decoration: none;
 }
-.aside a:hover{
+
+.aside a:hover {
     text-decoration: none;
     color: black;
     background-color: lightgray;
 }
-#green{
+
+#green {
     background-color: lightgreen;
 }
-.rigth{
+
+.rigth {
     width: 80%;
     padding-left: 20px;
 }
-.button-b-f{
+
+.button-b-f {
     display: flex;
     justify-content: space-between;
     width: 80%;
     padding-left: 50px;
     padding-top: 25px;
 }
-.b-color{
+
+.b-color {
     padding: 15px;
     background-color: rgb(48, 167, 48);
     border-radius: 5px;
     color: whitesmoke;
     text-decoration: none;
 }
-.b-color:hover{
+
+.b-color:hover {
     text-decoration: none;
     color: whitesmoke;
 
 }
-.blue-box{
+
+.blue-box {
     background-color: rgb(150, 247, 247);
     width: 90%;
     padding: 25px;
@@ -140,19 +163,23 @@ body{
     gap: 10px;
     border-radius: 10px;
 }
-.html01{
+
+.html01 {
     padding-top: 40px;
 }
-#lhm{
+
+#lhm {
     background-color: rgb(48, 167, 48);
     padding: 10px;
     color: whitesmoke;
     width: max-content;
 }
-.exam2{
+
+.exam2 {
     border-color: lightslategray;
 }
-.gray-box{
+
+.gray-box {
     background-color: rgb(205, 206, 207);
     width: 90%;
     display: flex;
@@ -161,231 +188,316 @@ body{
     padding-bottom: 10px;
 
 }
-.exam-box{
+
+.exam-box {
     border-left: solid 5px green;
     background-color: whitesmoke;
     width: 90%;
     padding-left: 20px;
 }
-.white-box{
+
+.white-box {
     padding-left: 20px;
     padding-bottom: 20px;
 }
 
-.Layout{
+.Layout {
     color: red;
 }
-.black{
+
+.black {
     color: black;
 }
-.btn{
+
+.btn {
     padding: 15px;
     background-color: rgb(48, 167, 48);
     border-radius: 5px;
     color: whitesmoke;
-    text-decoration: none;  
+    text-decoration: none;
     width: max-content;
 }
-.c-gray-box{
+
+.c-gray-box {
     padding-left: 10px;
 }
-.examples p{
+
+.examples p {
     font-size: 20px;
 }
-#html-ex{
+
+#html-ex {
     background-color: lightsteelblue;
     padding: 10px;
     width: max-content;
     color: whitesmoke;
 }
-.f-btn{
+
+.f-btn {
     padding-top: 40px;
     padding-bottom: 20px;
 }
-.spl{
+
+.spl {
     padding-top: 50px;
 }
-.left{
+
+.left {
     display: block;
 }
-#menu-bar-btn{
+
+#menu-bar-btn {
     display: none;
 }
-.vfx{
+
+.vfx {
     padding-top: 40px;
 }
-.html-intro01{
+
+.html-intro01 {
     display: flex;
     flex-direction: column;
     gap: 5px;
-   
+
 }
-.html-intro01 ul{
+
+.html-intro01 ul {
     padding-left: 20px;
 }
-.html-intro02{
+
+.html-intro02 {
     color: red;
     background-color: rgb(226, 232, 235);
 }
-.examples ul{
+
+.examples ul {
     padding-left: 20px;
 }
-.examples ul li{
+
+.examples ul li {
     padding-bottom: 10px;
     font-size: 15px;
 }
-.color-blue{
-color: blue;
+
+.color-blue {
+    color: blue;
 }
-.color-red{
-color: red;
+
+.color-red {
+    color: red;
 }
+
+.html-intro04 {
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.html-intro04 table {
+    width: 80%;
+    padding-top: 10px;
+    border: solid 1px black;
+}
+
+.html-intro04 table th {
+    padding-left: 10px;
+}
+
+.html-intro04 table td {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.html-intro04 table tr:nth-child(even) {
+    background-color: rgb(200, 204, 207);
+}
+.html-intro05{
+width: 100%;
+background-color: #f8cf7c;
+padding: 10px;
+}
+.html-intro05 p{
+    font-size: 17px;
+}
+
+
+
 
 
 @media screen and (max-width:800Px) {
- .slider-btn{
-    display: none;
- }
- #html{
-    padding-left: 0;
- }
-  #menu-bar-btn{
-    display: block;
-  }   
-  .main-class{
-    display: flex;
-    flex-direction: column;
-  }
-  .html-intro01 ul{
-    list-style-position: inside;
+    .slider-btn {
+        display: none;
+    }
+
+    #html {
+        padding-left: 0;
+    }
+
+    #menu-bar-btn {
+        display: block;
+    }
+
+    .main-class {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .html-intro01 ul {
+        list-style-position: inside;
+    }
+
+    .aside {
+        background-color: whitesmoke;
+
+    }
+
+    .aside a {
+        padding-right: 30px;
+    }
+
+    .left {
+        display: none;
+        width: 60%;
+        position: absolute;
+        z-index: 1;
+        background-color: whitesmoke;
+
+    }
+
+    .left h3 {
+        font-size: 20px;
+        color: black;
+    }
+
+    .rigth {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .blue-box {
+        width: 100%;
+    }
+
+    .html01 {
+        padding-left: 0;
+    }
+
+    #cen {
+        text-align: center;
+    }
+
+    .button-b-f {
+        width: 100%;
+        padding-left: 0;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #try {
+        font-size: 21px;
+    }
+
+    .exam {
+        padding-left: 10px;
+    }
+
+    .gray-box {
+        width: 100%;
+    }
+
+    #thani {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .examples {
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #para {
+        font-size: 15px;
+    }
+
+    #ex {
+        font-size: 20px;
+    }
+
+
+    .html-intro01 {
+        padding-left: 20px;
+    }
+
+    .html-intro01 ul {
+        list-style-position: outside;
+    }
+
+    .html-intro01 ul {
+        padding-left: 20px;
+    }
+
+
+
 }
-  .aside{
-  background-color: whitesmoke;
 
-  }
-  .aside a{
-    padding-right: 30px;
-  }
-  
-  .left{
-    display: none;
-    width: 60%;
-    position: absolute;
-    z-index: 1;
-    background-color: whitesmoke;
-    
-  }
-  .left h3{
-    font-size: 20px;
-    color: black;
-  }
-  .rigth{
-    width: 100%;
-    padding-left: 0;
-  }
-  .blue-box{
-    width: 100%;
-  }
-  .html01{
-    padding-left: 0;    
-  }
-  #cen{
-   text-align: center;
- }
- .button-b-f{
-    width: 100%;
-    padding-left: 0;
-    justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
- }
- #try{
-    font-size: 21px;
- }
- .exam{
-    padding-left: 10px;
- }
- .gray-box{
-    width: 100%;
- }
- #thani{
-    font-size: 15px;
-    padding-left: 10px;
- }
- .examples{
-    padding-left: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
- }
- #para{
-    font-size: 15px;
- }
- #ex{
-    font-size: 20px;
- }
-
-
- .html-intro01{
-    padding-left: 20px;
- }
- .html-intro01 ul{
-    list-style-position: outside;
- }
-.html-intro01 ul{
-    padding-left: 20px;
-}
-
-
-
-}
 /* Don't Tuch Bellow Codes */
-.final-div-for-crdits-main{
+.final-div-for-crdits-main {
     background-color: #0A1D36;
     color: #FABC3F;
     display: flex;
-    
+
     padding-top: 50px;
     padding-right: 20%;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
 }
-.crds1{
+
+.crds1 {
     display: flex;
     gap: 100px;
     padding-bottom: 20px;
 }
-.crds1 a{
+
+.crds1 a {
     color: #FABC3F;
     font-size: 20px;
-    
+
 }
 
-.crds3{
+.crds3 {
     font-size: 20px;
     display: grid;
     padding-top: 40px;
     gap: 5px;
 }
-.crds3 a{
+
+.crds3 a {
     color: white;
-    
+
     font-size: 15px;
 }
-.crds3 #tt{
+
+.crds3 #tt {
     font-size: 25px;
     padding-bottom: 10px;
-   color: wheat;
+    color: wheat;
 }
-.def{
+
+.def {
     display: flex;
     gap: 120px;
     padding-left: 160px;
     justify-content: center;
 
 }
-.mainfinal{
+
+.mainfinal {
     display: flex;
     justify-content: center;
     background-color: #0A1D36;
@@ -393,14 +505,17 @@ color: red;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.finall{
+
+.finall {
     width: 60%;
 }
-.mainfinal h3{
+
+.mainfinal h3 {
     padding-bottom: 5px;
     color: #FABC3F;
 }
-.cat{
+
+.cat {
     background-color: #0A1D36;
     display: grid;
     justify-content: center;
@@ -447,87 +562,95 @@ color: red;
         font-size: large;
         font-weight: bold;
     }
-    .div-flexcard{
+
+    .div-flexcard {
         width: 80%;
         height: 40vh;
-        
+
     }
-    .div-flexcard-two{
+
+    .div-flexcard-two {
         width: 80%;
         height: 20vh;
-        
+
     }
-    .div-flexcard-one{
+
+    .div-flexcard-one {
         width: 80%;
         height: 20vh;
-        
+
     }
-    .div-third-main .div-box1{
+
+    .div-third-main .div-box1 {
         text-align: center;
         display: flex;
         justify-content: center;
     }
-  
-   .div-ex{
-    width: 90%;
-    height: 15vh;
-   }
-   .div-exex1{
-    display: flex;
-    gap: 20px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-   }
-   .div-spaceone a{
-    font-size: 25px;
-   }
-   .div-exex a{
-    font-size: 20px;
-   }
-   .crds1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    justify-content: center;
-    padding-left: 50px;
-    text-align: center;
-}
-.crds1{
-    font-size: 50px;
-}
-.def{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    align-items: center;
-    text-align: center;
-    padding-left: 50px;
-}
-    .cat img{
-        height: auto;
+
+    .div-ex {
         width: 90%;
+        height: 15vh;
     }
-    .cat{
+
+    .div-exex1 {
+        display: flex;
+        gap: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .div-spaceone a {
+        font-size: 25px;
+    }
+
+    .div-exex a {
+        font-size: 20px;
+    }
+
+    .crds1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
-    }
-    .finall p{
+        gap: 20px;
+        justify-content: center;
+        padding-left: 50px;
         text-align: center;
     }
-  
-   
-    
+
+    .crds1 {
+        font-size: 50px;
+    }
+
+    .def {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        text-align: center;
+        padding-left: 50px;
+    }
+
+    .cat img {
+        height: auto;
+        width: 90%;
+    }
+
+    .cat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .finall p {
+        text-align: center;
+    }
+
+
+
 }
-#tt{
+
+#tt {
     font-size: 25px;
     white-space: nowrap;
 }
-
-
-
-
-
-
