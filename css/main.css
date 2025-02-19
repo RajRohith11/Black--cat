@@ -54,8 +54,15 @@ body{
     color: whitesmoke;
     z-index: 1;
 }
+
 .color:hover{
     cursor: pointer;
+}
+.html-intro01 ul li{
+    padding-bottom: 5px;
+}
+.html-intro01 ul{
+    list-style-position: outside;
 }
 .nav{
     position: sticky;
@@ -65,9 +72,13 @@ body{
 .main-class{
     width: 100%;
     display: flex;
+    
 }
+
 .left{
     width: 20%;
+    
+    
     
 
     
@@ -207,7 +218,30 @@ body{
     display: flex;
     flex-direction: column;
     gap: 5px;
+   
 }
+.html-intro01 ul{
+    padding-left: 20px;
+}
+.html-intro02{
+    color: red;
+    background-color: rgb(226, 232, 235);
+}
+.examples ul{
+    padding-left: 20px;
+}
+.examples ul li{
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.color-blue{
+color: blue;
+}
+.color-red{
+color: red;
+}
+
+
 @media screen and (max-width:800Px) {
  .slider-btn{
     display: none;
@@ -222,6 +256,9 @@ body{
     display: flex;
     flex-direction: column;
   }
+  .html-intro01 ul{
+    list-style-position: inside;
+}
   .aside{
   background-color: whitesmoke;
 
@@ -295,7 +332,9 @@ body{
  .html-intro01 ul{
     list-style-position: outside;
  }
-
+.html-intro01 ul{
+    padding-left: 20px;
+}
 
 
 
