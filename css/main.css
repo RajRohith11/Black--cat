@@ -289,9 +289,11 @@ body {
 
 .html-intro04 {
     width: 100%;
-    padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .html-intro04 table {
@@ -439,6 +441,9 @@ padding: 10px;
 
     .html-intro01 ul {
         padding-left: 20px;
+    }
+    .examples h3{
+        font-size: 15px;
     }
 
 
